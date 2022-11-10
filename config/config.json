@@ -1,0 +1,72 @@
+{
+    "AE Board": {
+        "settings": {
+            "lowerBound": -10,
+            "lowerFlag": -1.5,
+            "upperBound": 10,
+            "upperFlag": 7.5
+        },
+        "unit": "Hertz|HZ"
+    },
+    "Electronic": {
+        "settings": {
+            "lowerBound": -10,
+            "lowerFlag": -1.5,
+            "upperBound": 10,
+            "upperFlag": 7.5
+        },
+        "unit": "Volts|V"
+    },
+    "Relay Board": {
+        "settings": {
+            "Number of Relays": 10,
+            "lowerBound": -10,
+            "lowerFlag": -1.5,
+            "upperBound": 10,
+            "upperFlag": 7.5
+        },
+        "unit": "Ohms|Ω"
+    },
+    "Strain": {
+        "settings": {
+            "lowerBound": -10,
+            "lowerFlag": -1.5,
+            "upperBound": 10,
+            "upperFlag": 7.5
+        },
+        "unit": "Stress|σ"
+    },
+    "Thruster Pod": {
+        "settings": {
+            "pressure": {
+                "lowerBound": 0,
+                "lowerThreshold": -1.5,
+                "unit": "Pa",
+                "upperBound": 100,
+                "upperThreshold": 7.5
+            },
+            "state": {
+                "lowerBound": 1,
+                "lowerThreshold": 11,
+                "unit": "N/A",
+                "upperBound": 9,
+                "upperThreshold": 10
+            },
+            "temperature": {
+                "lowerBound": -100,
+                "lowerThreshold": -1.5,
+                "unit": "°F",
+                "upperBound": 0,
+                "upperThreshold": 7.5
+            },
+            "water": {
+                "lowerBound": 0,
+                "lowerThreshold": 0,
+                "unit": "N/A",
+                "upperBound": 0,
+                "upperThreshold": 0
+            }
+        }
+    },
+    "settings": null
+}

@@ -1,0 +1,50 @@
+{
+    "Electronic" : {
+        "unit" : "Volts|V",
+        "settings" : {
+            "upperBound" : 10,
+            "lowerBound" : -10,
+            "upperFlag" : 7.5,
+            "lowerFlag" : -1.5
+        }
+    },
+    "Thruster" : {
+        "unit" : "Newtons|N",
+        "settings" : {
+            "unit1" : "|N",
+            "unit2" : "T",
+            "upperBound" : 10,
+            "lowerBound" : -10,
+            "upperFlag" : 7.5,
+            "lowerFlag" : -1.5
+        }
+    },
+    "AE Board" : {
+        "unit" : "Hertz|HZ",
+        "settings" : {
+            "upperBound" : 10,
+            "lowerBound" : -10,
+            "upperFlag" : 7.5,
+            "lowerFlag" : -1.5
+        }
+    },
+    "Strain" : {
+        "unit" : "Stress|σ",
+        "settings" : {
+            "upperBound" : 10,
+            "lowerBound" : -10,
+            "upperFlag" : 7.5,
+            "lowerFlag" : -1.5
+        }
+    },
+    "Relay Board" : {
+        "unit" : "Ohms|Ω",
+        "settings" : {
+            "upperBound" : 10,
+            "lowerBound" : -10,
+            "upperFlag" : 7.5,
+            "lowerFlag" : -1.5,
+            "Number of Relays" : 
+        }
+    }
+}
