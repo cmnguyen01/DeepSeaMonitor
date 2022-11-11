@@ -11,7 +11,6 @@ Vitaliy Trach
 Alex Westover
 
 # Introduction
-Capstone
 As team Baldur this our Capstone Project to design a system that will monitor the hardware for a submarine during deep-sea exploration under the requirement that it run on linux as that is the OS the company uses and that it is written in C#. Each sensor send UDP packets through ethernet connection. Our server acts as the reciever that will decode the UDP packets and store them in the database.
 
 # Backend
